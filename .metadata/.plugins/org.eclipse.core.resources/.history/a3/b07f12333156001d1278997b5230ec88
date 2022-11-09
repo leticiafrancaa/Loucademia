@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class AlterandoValorVariavel {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.print("Digite o valor do produto: ");
+		Double ValorProduto = scanner.nextDouble();
+		
+		
+		scanner.close();
+	}
+}

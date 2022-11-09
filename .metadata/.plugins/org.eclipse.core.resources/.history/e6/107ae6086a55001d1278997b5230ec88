@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class TiposTexto {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		String nome = "Leti Gatinha";
+		
+		System.out.println("Olá, " + nome + "!");
+	}
+}

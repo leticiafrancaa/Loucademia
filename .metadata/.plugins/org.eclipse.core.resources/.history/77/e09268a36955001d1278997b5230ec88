@@ -1,0 +1,7 @@
+
+public class TiposTexto {
+	public static void main(String[] args) {
+		String nome = "Leti Gatinha";
+		System.out.println("Olá! " + nome + "!");
+	}
+}

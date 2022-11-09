@@ -1,0 +1,13 @@
+package br.org.cesar.aula4;
+
+public class UserController {
+	@RestController
+	public class UserController{
+		
+		@GetMapping("/user")
+		public UsergetUser() {
+			User temporario = new User("Leticia", "123456789999");
+			return temporario;
+		}
+	}
+}
